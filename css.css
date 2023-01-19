@@ -1,0 +1,65 @@
+/**
+*{
+    color: blue
+}
+*/
+h1 {
+    border: 10px solid black;
+    padding: 20px;  
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 2cm;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    color: rebeccapurple
+}
+
+h2 {
+    color: pink
+}
+
+#primero {
+    color:red
+}
+
+#segundo {
+    color: orange
+}
+
+.estaesmiclase {
+    border-width: 5px;
+    padding: 5px 10px 15px 20px;
+    margin: 5px 1px 3px 5px;
+    font-weight: bold;
+    color:green
+}
+
+.big {
+font-size: 25px;
+}
+
+.button {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.pregunta {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+section {
+    margin: 30px 15px 30px 10px;
+}

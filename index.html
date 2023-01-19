@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css" />
+    <title>Mi primer intento</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Hi, there!</h1>
+    <h2>Hello, dear world</h2>
+    <p>¡Hola, mundo!</p>
+    
+    <article>
+        <p class="estaesmiclase">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at ultrices arcu, et dictum ex. Aliquam erat volutpat. Morbi sollicitudin nisi nulla, cursus maximus ipsum vestibulum at. Praesent id pellentesque tellus. Duis posuere metus sed arcu pretium posuere. Sed ante lectus, tempor vel nisi at, facilisis venenatis libero. Duis sit amet magna malesuada, venenatis nisl et, semper felis. Vestibulum leo quam, fermentum at enim quis, pharetra ullamcorper nisl. Mauris dapibus mauris nec luctus convallis. Vivamus dignissim lectus sed lacus eleifend elementum. Nam placerat nec ex sed vestibulum. Cras tortor mi, accumsan vitae sodales et, efficitur a est. Nullam semper ante ante, sed convallis massa porttitor laoreet. Nunc nec lobortis odio. Vivamus ullamcorper velit vel eros auctor porttitor.</p>
+        <ol>
+            <li id="primero">Praesent quis leo sollicitudin sem rutrum placerat nec nec dolor.</li>
+            <li id="segundo">Curabitur tempor urna vitae molestie iaculis.</li>
+            <li>Phasellus rutrum sem vitae rhoncus mattis.</li>
+        </ol>
+    <p class="estaesmiclase big">Morbi a tortor porta, rutrum dolor vitae, malesuada lectus. Nulla sagittis velit efficitur lectus fermentum, sed placerat elit faucibus. Aliquam erat volutpat. Maecenas arcu elit, fermentum vitae lorem non, varius tempor lorem. Vivamus cursus auctor magna, sit amet accumsan libero pretium at. Integer cursus laoreet dui et iaculis. Integer porta aliquam orci. Pellentesque a ante vitae urna elementum luctus non sit amet magna. Etiam sodales ultricies erat quis sagittis. Nunc diam nisi, aliquet et eleifend sed, luctus ac elit. Nam magna ex, congue eu eros quis, molestie semper diam. Fusce scelerisque urna eleifend efficitur tempor. Sed consequat risus ut diam scelerisque, et mattis est finibus. Nam lacus neque, laoreet vel consectetur sit amet, consequat ac felis.</p>
+    </article>
+
+        <section>
+                <form action="action-page.phg" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"><br><br>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido"><br><br>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="text" id="email" name="email" placeholder="Ingrese su correo electrónico"><br><br>
+                    <label for="fecha">Fecha:</label>
+                    <input type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha"> <br><br>
+                    <label for="archivo">Subir archivo</label>
+                    <input type="file" id="archivo" name="archivo"> <br><br>
+                    <input type="submit" value="Submit">
+
+                </form>
+
+                <p class="pregunta">¿Desea recibir más información sobre nosotros?</p>
+                <form action="action-page.phg" method="post">
+                <label for="si">Sí, deseo recibir más información</label>    
+                <input type="checkbox" id="si" name="si"> <br><br> 
+                <label for="no">No, gracias</label>
+                <input type="checkbox" name="no" id="no"> <br><br>
+                </form>
+
+                <button class=button type="button" onclick="alert('¡Bienvenido a la familia!')"> <strong>Unirse</strong></button>
+        </section>
+
+</body>
+</html>
