@@ -1,1 +1,84 @@
-h1 {color: pink}
+
+* {
+    margin: 10px;
+    background-color: rgb(211, 183, 236);
+    box-sizing: border-box;
+}
+/* Configuración de las imágenes del Header
+*/
+header {
+    display: flex; 
+    width: 600 px;
+    height: 430px;
+}
+
+header img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    transition-duration: 5s;
+}
+
+header img:hover {
+    cursor: pointer;
+    width: 300px;
+}
+/* Fin configuración de las imágenes del Header. 
+Fuente: https://www.instagram.com/reel/Cn4bYvDju8i/?utm_source=ig_web_copy_link
+*/
+#nombre_perfil {color: white;
+    font-size: 60px;
+    padding: 10px;
+}
+
+h1 {
+ color:black;
+ font-size: 30px;
+ padding: 10px;
+ margin-top: 50px;
+ 
+
+}
+.recuadro {
+    background-color: plum;
+}
+aside{
+    font-size: 20px;
+    float: right;
+    box-shadow: 3px 3px rgb(236, 198, 204), -1em 0 .4em rgb(153, 210, 248);
+   
+
+    @media screen and (max-width:200px) {
+     aside{ 
+         float: none;
+        
+        
+    }
+        }
+    }
+
+    a{
+        font-size: 15px;
+        font-weight: bold;
+        color: blue;
+
+    }
+
+    .columnas{
+            column-count: 2;
+    }
+
+    figcaption{
+        font-size: 10px;
+        color: black;
+        margin-top: 0%;    
+    }
+
+    #rwd{
+        max-width: 100%;
+
+        @media only screen and (max-width: 200px) 
+            img {
+              width: 100px;
+                }
+            }
