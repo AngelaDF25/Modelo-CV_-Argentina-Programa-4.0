@@ -4,22 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto final CV</title>
+    <title> CV Profesora Modelo</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/favicon.ico">
+     <!--OG PROTOCOL -->
+    <meta name="description" content="Modelo de CV adaptado para una pagina web" />
+    <meta property="og:title" content="Modelo CV" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" />
+    <meta property="og:image" content=" https://img.freepik.com/foto-gratis/mujer-ensenando-ninos-clase-ingles-linea_23-2148962947.jpg?w=740&t=st=1674872163~exp=1674872763~hmac=3bf4e210c44bd57abe6f61cf8b0f8a68b673eab342ca8a2aea87280e93834401" />
+    <meta property="og:description" content="Modelo de CV adaptado para una pagina web" />
+
     <link rel="stylesheet" type="text/css" href="proyecto_cv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Oswald:wght@200&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
+
 <body>
     <header>
     <img src="https://img.freepik.com/foto-gratis/mujer-ensenando-ninos-clase-ingles-linea_23-2148962947.jpg?w=740&t=st=1674872163~exp=1674872763~hmac=3bf4e210c44bd57abe6f61cf8b0f8a68b673eab342ca8a2aea87280e93834401" alt="imagen de la profesional">
     <img src="https://img.freepik.com/foto-gratis/mujer-joven-ensenando-estudiantes-leccion-ingles-linea_23-2148962965.jpg?w=740&t=st=1674871816~exp=1674872416~hmac=dc449a56e26fa4189fbff00ad2a0fccac04e13988faa90a24a540acd0a24b6bb " alt="mujer enseñando">
     <img src="https://img.freepik.com/foto-gratis/mujer-joven-ensenando-ninos-clase-ingles-linea_23-2148962940.jpg?w=740&t=st=1674871887~exp=1674872487~hmac=3baa9ff4b154808585b40556687410540d66688087af65fb20fb23001f2925d9" alt="clases virtuales">
-
     </header>
     
-    <h1 id="nombre_perfil">Mary Grayson</h1>
-    <h2>Profesora de inglés</h2>
+    <h1 id="nombre_perfil">María Grayson</h1>
+    <h2 id="nombre_perfil2">Profesora de inglés</h2>
 
-    <main>  
-        <h1>Formación académica</h1>
+    <main>
+        <h1><i class="bi bi-book-half"></i>Formación académica</h1>
         <p>Me recibí de Traductora de Inglés en la Facultad de Lenguas en el año 2021. </p>
         <p>Durante el año 2022 finalicé el primer año del Trayecto Pedagógico para Estudiantes Graduados No Docentes.</p>  
         <p>Completé el curso anual de Técnicas de Enfermería y Primeros Auxilios en el Instituto de Formación Profesional N.</p> 
@@ -27,9 +40,8 @@
 
     <aside>
         <div>
-           <h1 class="recuadro">Habilidades y Aptitudes</h1>
+           <h1 class="recuadro"> <i class="bi bi-shield-fill-plus"></i> Habilidades y Aptitudes</h1>
             <ul class="columnas">
-
                 <li>Redes sociales</li>
                 <li>Paquete Office</li>
                 <li>Canvas</li>
@@ -41,20 +53,18 @@
                 <li>Empatía</li>
                 <li>Responsabilidad</li>
             </ul>
-
-            
-
         </div>
     </aside>
 
     <section>
-        <h1>Experiencia laboral</h1>
-           <ul>Centro integral educativo M.,</ul>
-           <ul>Instuto Educativo C.,</ul> 
-           <ul>Profesora en una academia de inglés,</ul> 
-           <ul>Profesora de apoyo escolar,</ul>   
-            <ul>Ayudante alumna de la cátedra Traducción Científica.</ul> 
-               
+        <h1> <i class="bi bi-briefcase-fill"></i>Experiencia laboral</h1>
+        <ul>
+           <li>Centro integral educativo M.,</li>
+           <li>Instuto Educativo C.,</li> 
+           <li>Profesora en una academia de inglés,</li> 
+           <li>Profesora de apoyo escolar,</li>   
+            <li>Ayudante alumna de la cátedra Traducción Científica.</li> 
+        </ul>       
     </section>
 
     <article>
@@ -85,27 +95,49 @@
    
     </section>
  <footer>
-        <h1>¿Desea contactarse?</h1>
+    <div>
+        <h1><i class="bi bi-telephone-outbound-fill"></i>¿Desea contactarse?</h1>
         <p>Deje tus datos y me comunicaré con usted a la brevedad.</p>
-    <form action="action-page.phg" method="post">
-     <label for="Nombre" id="Nombre"> <u>Nombre:</u> </label> 
-     <input type=" text" placeholder="Ingrese su nombre"> <br> <br>
-     <label for="Apellido" id="Apellido"> <u>Apellido:</u> </label> 
-     <input type=" text" placeholder="Ingrese su apellido"> <br> <br> 
-     <label for="Correo" id="Correo"> <u>Correo electrónico:</u> </label> 
-     <input type=" text" placeholder="Ingrese su correo">  <br> <br>
-     <label for="fecha"> <u>Fecha:</u> </label> 
-     <input type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha"> <br><br>
+        <form class="formulario" action="action-page.phg" method="post">
+     <label for="nombre" id="nombre"> Nombre: </label> 
+     <input type=" text" placeholder="Ingrese su nombre" required> <br>
+     <label for="apellido" id="apellido"> Apellido: </label> 
+     <input type=" text" placeholder="Ingrese su apellido" required> <br>
+     <label for="correo" id="correo">Correo electrónico: </label> 
+     <input type=" text" placeholder="Ingrese su correo" required> <br>
+     <label for="fecha">Fecha:</label> 
+     <input type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha" required> <br><br>
+     <label for="mensaje">Deje su mensaje:</label> <br>
+     <textarea name="mensaje" id="mensaje" cols="70" rows="5" placeholder="Escriba aquí..."></textarea> <br>
     <input type="submit" value="Enviar" onclick="alert ('Mensaje enviado')">
     </form>
-
+</div>
 </footer>
-    
+    <!--  Versión de formulario
+         <footer>
+    <div>
+        <h1>¿Desea contactarse?</h1>
+        <p>Deje tus datos y me comunicaré con usted a la brevedad.</p>
+        <form class="formulario" action="action-page.phg" method="post">
+     <label for="nombre" id="nombre"> Nombre: </label> 
+     <input type=" text" placeholder="Ingrese su nombre" required> <br>
+     <label for="apellido" id="apellido"> Apellido: </label> 
+     <input type=" text" placeholder="Ingrese su apellido" required> <br>
+     <label for="correo" id="correo">Correo electrónico: </label> 
+     <input type=" text" placeholder="Ingrese su correo" required> <br>
+     <label for="fecha">Fecha:</label> 
+     <input type="text" name="fecha" id="fecha" placeholder="Ingrese la fecha" required> <br><br>
+     <label for="mensaje">Deje su mensaje:</label> <br>
+     <textarea name="mensaje" id="mensaje" cols="70" rows="5" placeholder="Escriba aquí..."></textarea> <br>
+    <input type="submit" value="Enviar" onclick="alert ('Mensaje enviado')">
+    </form>
+</div>
+</footer>
+-->
 
 <!--  <button id="boton" onclick="alert ('Mensaje externo')">Enviar</button>
 -->
 
-<script src="cv.js"> </script>
-
+<script src="cv.js"></script>
   </body>
 </html>

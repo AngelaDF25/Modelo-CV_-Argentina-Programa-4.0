@@ -1,10 +1,17 @@
 
-* {
-    margin: 10px;
-    background-color: rgb(211, 183, 236);
+
+body {
+    min-height: 100vh;
+    background: url(./Imagenes/img1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    margin: 5px 5px 15px 5px;
+    text-indent: 10px;
+    text-align: left;
     box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
 }
-/* Configuración de las imágenes del Header
+/* Configuración de las imágenes del Header 
 */
 header {
     display: flex; 
@@ -26,52 +33,66 @@ header img:hover {
 /* Fin configuración de las imágenes del Header. 
 Fuente: https://www.instagram.com/reel/Cn4bYvDju8i/?utm_source=ig_web_copy_link
 */
-#nombre_perfil {color: white;
-    font-size: 60px;
-    padding: 10px;
+#nombre_perfil{color: white;
+    font-size: 80px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    text-shadow: 50px;
+}
+#nombre_perfil2{
+    font-size: 40px;
+    color: black;
+    font-style: italic;
+    margin: 5px;
+    padding: 3px;
+    text-align:center
 }
 
+i{
+    margin-right: 10px;
+    color: palevioletred;
+}
 h1 {
  color:black;
  font-size: 30px;
  padding: 10px;
  margin-top: 50px;
- 
+ }
 
-}
-.recuadro {
-    background-color: plum;
-}
+
 aside{
-    font-size: 20px;
+    font-size: 18px;
     float: right;
-    box-shadow: 3px 3px rgb(236, 198, 204), -1em 0 .4em rgb(153, 210, 248);
+    box-shadow: 0px 0px;
+    text-align:inherit ;
    
 
     @media screen and (max-width:200px) {
      aside{ 
-         float: none;
-        
-        
+         float: none;    
     }
         }
     }
 
-    a{
-        font-size: 15px;
-        font-weight: bold;
-        color: blue;
-
-    }
-
     .columnas{
             column-count: 2;
+            column-gap: 25px;
     }
 
+
+a{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+  
+
     figcaption{
-        font-size: 10px;
+        font-size: 15px;
         color: black;
-        margin-top: 0%;    
+        margin-top: none;    
     }
 
     #rwd{
@@ -82,3 +103,41 @@ aside{
               width: 100px;
                 }
             }
+
+footer{
+    text-align: center;
+}
+
+.formulario {
+    margin: 15px;
+    width: 100%;
+    padding: 10px;
+}
+.formulario form button, form input, form textarea { 
+    margin: 5px 0px 5px 0px;
+    width: 25%;
+    padding: 15px;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid palevioletred;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.formulario input[type="submit"]{
+   background: rgb(203, 203, 240);
+   color: palevioletred;
+    border: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.formulario input[type="submit"]:hover,
+.formulario input[type="submit"]:focus {
+    background: plum;
+    color: white;
+    transition: background-color 1s ease-out;
+}
